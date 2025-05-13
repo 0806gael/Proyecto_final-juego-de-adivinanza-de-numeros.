@@ -21,11 +21,11 @@
 # Esta parte del codigo es la que te dice cuantas veces has intentado adivinar el numero 
 # y si lo adivinaste o no
 
-def jugar():
-    numero_correcto = 27            
-    intentos_maximos = 7
-    intentos_hechos = 0
-    historial_intentos = []
+    def jugar():
+        numero_correcto = 27            
+        intentos_maximos = 7
+        intentos_hechos = 0
+        historial_intentos = []
 
     while intentos_hechos < intentos_maximos:
         intento = int(input("Ingresa tu número: "))
@@ -44,5 +44,5 @@ def jugar():
     else:
         print(f"Has agotado tus intentos. El número era {numero_correcto}.")
     
-    print("Tus intentos:", historial_intentos)
-jugar()
+        print("Tus intentos:", historial_intentos)
+    jugar()
