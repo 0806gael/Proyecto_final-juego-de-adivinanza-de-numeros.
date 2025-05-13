@@ -1,4 +1,6 @@
 # Proyecto_final-juego-de-adivinanza-de-numeros.
+# Descripcion: Este proyecto es de un juego sobre tratar de adivinar un numero secreto teniendo 7 intentos para descifrarlo
+# y señales si te estas acercando al numero o no
 # En esta parte del codigo se da la bienvenida usando printf y te dice lo que debes hacer para iniciar el juego
 # definiedo el numero con una funcion
 
@@ -47,3 +49,5 @@
     
         print("Tus intentos:", historial_intentos)
     jugar()
+
+# Integrantes: Gael Dorantes Garcia
