@@ -1,10 +1,11 @@
 # Proyecto_final-juego-de-adivinanza-de-numeros.
-# En esta parte del codigo se da la bienvenida y te dice lo que debes hacer para iniciar el juego
+# En esta parte del codigo se da la bienvenida usando printf y te dice lo que debes hacer para iniciar el juego
+# definiedo el numero con una funcion
 
     print("Bienvenido al juego de la adivinanza de numeros")
     print("Adivina el numero entre 1 al 100")
-    def obtener_pista(numero_secreto, intento):
-    diferencia = abs(numero_secreto - intento)
+    def obtener_pista(numero_correcto, intento):
+    diferencia = abs(numero_correcto - intento)
 
 # Ingresas el numero que quieras y esta parte del codigo con los if, elif y else te dan una aproximacion......
 # del resultado
@@ -18,7 +19,7 @@
     else:
         return "Frío, estás lejos."
 
-# Esta parte del codigo es la que te dice cuantas veces has intentado adivinar el numero 
+# Esta parte del codigo es la que te dice cuantas veces has intentado adivinar el numero a traves de los while
 # y si lo adivinaste o no
 
     def jugar():
@@ -33,7 +34,7 @@
         print(obtener_pista(numero_correcto, intento))
         
  # aqui es donde se compara el numero que ingresaste con el numero correcto y
- # y el historial de estos intentos
+ # y el historial de estos intentos usando el if y el else
  
         if intento == numero_correcto:
             break
