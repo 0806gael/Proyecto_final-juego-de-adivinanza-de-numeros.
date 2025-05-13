@@ -1,9 +1,9 @@
 # Proyecto_final-juego-de-adivinanza-de-numeros.
 # En esta parte del codigo se da la bienvenida y te dice lo que debes hacer para iniciar el juego
 
-print("Bienvenido al juego de la adivinanza de numeros")
-print("Adivina el numero entre 1 al 100")
-def obtener_pista(numero_secreto, intento):
+    print("Bienvenido al juego de la adivinanza de numeros")
+    print("Adivina el numero entre 1 al 100")
+    def obtener_pista(numero_secreto, intento):
     diferencia = abs(numero_secreto - intento)
 
 # Ingresas el numero que quieras y esta parte del codigo con los if, elif y else te dan una aproximacion......
